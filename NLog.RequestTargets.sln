@@ -5,6 +5,14 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpContextItem", "HttpContextItem\HttpContextItem.csproj", "{A4BD32EE-B8C0-421C-9A1F-4FF406226268}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{256E1086-4735-4674-B90D-CA1BD668446B}"
+	ProjectSection(SolutionItems) = preProject
+		HttpContextItem\HttpContextItem.nuspec = HttpContextItem\HttpContextItem.nuspec
+		HttpContextItem\HttpContextItemPublish.bat = HttpContextItem\HttpContextItemPublish.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C44694FE-BE72-4A83-8C68-95101160D490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4BD32EE-B8C0-421C-9A1F-4FF406226268} = {C44694FE-BE72-4A83-8C68-95101160D490}
 	EndGlobalSection
 EndGlobal
