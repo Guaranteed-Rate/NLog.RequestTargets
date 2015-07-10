@@ -1,10 +1,10 @@
-﻿namespace HttpContextItem
+﻿namespace NLog.RequestTargerts.HttpContextItem
 {
     using System.Text;
     using System.Web;
     using NLog;
-    using NLog.Config;
-    using NLog.LayoutRenderers;
+    using Config;
+    using LayoutRenderers;
 
     [LayoutRenderer("http-context-item")]
     public class HttpContextItemLayoutRenderer : LayoutRenderer

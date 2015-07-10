@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HttpContextItem")]
+[assembly: AssemblyTitle("NLog Request Target - HTTP Context Item")]
 [assembly: AssemblyDescription("An NLog layout renderer that allows items in the current HTTP context to be added to a log layout.  " + 
                                "Example: ${http-context-item:X-RequestId} will log the contents of HttpContext.Current.Items[\"X-Request-Id\"]")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Guaranteed Rate")]
-[assembly: AssemblyProduct("HttpContextItem")]
-[assembly: AssemblyCopyright("Copyright © HP 2015")]
+[assembly: AssemblyProduct("NLog.RequestTargerts.HttpContextItem")]
+[assembly: AssemblyCopyright("Copyright © Guaranteed Rate 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
